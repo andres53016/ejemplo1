@@ -1,5 +1,23 @@
-#!/usr/bin/env python
-# -*- coding: latin1 -*-
+#! /usr/bin/python
+#-*- coding: utf-8 -*- 
+#
+# This file is part of the Pililí project
+#
+# Copyright © 2012 by Pablo Andrés Smola
+#
+# Pililí is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public License
+# as published by the Free Software Foundation; either version 2
+# of the License, or (at your option) any later version.
+#
+# Pililí is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with Pililí. If not, see <http://www.gnu.org/licenses/>.
+
 from lexer import Lexer,Block,Entity
 from PyQt4.QtGui import QSyntaxHighlighter,QTextCharFormat,QTextDocument,QFont,QBrush,QColor
 from PyQt4.QtCore import QRegExp, QString,QVariant,QStringList,Qt
